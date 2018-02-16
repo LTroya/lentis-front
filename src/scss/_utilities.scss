@@ -1,0 +1,23 @@
+@for $i from 1 through 50 {
+  // margin helper classes
+  .m-#{$i} { margin: #{$i}px; }
+  .mt-#{$i} { margin-top: #{$i}px; }
+  .mb-#{$i} { margin-bottom: #{$i}px; }
+  .ml-#{$i} { margin-left: #{$i}px; }
+  .mr-#{$i} { margin-right: #{$i}px; }
+
+  // padding helper classes
+  .p-#{$i} { padding: #{$i}px; }
+  .pt-#{$i} { padding-top: #{$i}px; }
+  .pb-#{$i} { padding-bottom: #{$i}px; }
+  .pl-#{$i} { padding-left: #{$i}px; }
+  .pr-#{$i} { padding-right: #{$i}px; }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-bold { font-weight: bold; }
+
+.d-block { display: block; }

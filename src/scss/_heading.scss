@@ -1,0 +1,29 @@
+.heading--wrapper {
+  background: url('/img/bg.jpeg') no-repeat center center;
+  background-size: cover;
+}
+
+.heading--nav {
+  background: transparent;
+  border: 0;
+}
+
+.heading--body {
+  color: $white;
+}
+
+.heading--logo {
+  height: 60px;
+}
+
+.heading--body {
+  line-height: $line-height;
+}
+
+.heading--links a {
+  &:hover, &:focus {
+    color: $white !important;
+    border: 0;
+    outline: 0;
+  }
+}

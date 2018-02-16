@@ -1,0 +1,5 @@
+.team--image { width: 60%; }
+
+@media (max-width: $sm-screens) {
+  .team--image { width: 100%; }
+}
